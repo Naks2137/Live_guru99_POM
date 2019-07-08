@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="path" value="G:\\Software\\Selenium\\chromedriver_74\\chromedriver_win32\\chromedriver.exe"></parameter>
+<parameter name="url" value="http://live.guru99.com/index.php/"></parameter>
+  
+  <test thread-count="5" name="Test">
+  <parameter name="email" value="nagesh.raut1993@gmail.com"></parameter>
+  <parameter name="passwd" value="Naks2137"></parameter>
+  
+  <classes>
+  <class name="com.Modules.SignUp"/>
+  
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

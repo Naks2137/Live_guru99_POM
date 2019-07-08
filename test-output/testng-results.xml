@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35329" started-at="2019-07-07T18:10:09Z" finished-at="2019-07-07T18:10:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35329" started-at="2019-07-07T18:10:09Z" finished-at="2019-07-07T18:10:45Z">
+      <class name="com.Modules.SignUp">
+        <test-method status="PASS" signature="executeBrowser(java.lang.String, java.lang.String)[pri:1, instance:com.Modules.SignUp@7c0e2abd]" name="executeBrowser" duration-ms="9675" started-at="2019-07-07T18:10:09Z" finished-at="2019-07-07T18:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[G:\\Software\\Selenium\\chromedriver_74\\chromedriver_win32\\chromedriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://live.guru99.com/index.php/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBrowser -->
+        <test-method status="PASS" signature="verifyOrderPlace(java.lang.String, java.lang.String)[pri:2, instance:com.Modules.SignUp@7c0e2abd]" name="verifyOrderPlace" duration-ms="25588" started-at="2019-07-07T18:10:19Z" finished-at="2019-07-07T18:10:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nagesh.raut1993@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Naks2137]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderPlace -->
+      </class> <!-- com.Modules.SignUp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
